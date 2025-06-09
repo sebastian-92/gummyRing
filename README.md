@@ -11,6 +11,7 @@ gummyRing is a tool for simple, pretty, js-free, webrings
 
 ## Setup
 ### Requirements
+- recent nodejs version
 - recent npm version
 - common sense
 
@@ -34,8 +35,12 @@ You can configure pretty much everything in `config.json`.<br>
 links - links go here<br>
 ringName - the name of your webring
 joinURL - optional, a link shown for users wanting to join your webring
-### Other tips
+#### Other vital config info
 - In the ./public directory, there is join.html. you should probably change that or point `joinURL` in the config to something else
+### Startup
+```bash
+node server.js
+```
 ## Contributing
 
 Contributions are welcome! Please open issues and submit pull requests!
