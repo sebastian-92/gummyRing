@@ -1,0 +1,14 @@
+{
+  "name": "gummyring",
+  "version": "1.0.0",
+  "description": "the one webring to rule them all",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cbass92",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
