@@ -33,7 +33,7 @@ You can configure pretty much everything in `config.json`.<br>
 }
 ```
 links - links go here<br>
-ringName - the name of your webring
+ringName - the name of your webring<br>
 joinURL - optional, a link shown for users wanting to join your webring
 #### Other vital config info
 - In the ./public directory, there is join.html. you should probably change that or point `joinURL` in the config to something else
